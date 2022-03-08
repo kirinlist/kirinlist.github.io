@@ -1,19 +1,4 @@
-﻿<script>
-	var now = new Date(<?php echo time() * 1000 ?>);
-	function beginning(){  
-		setInterval('updateTime();', 1000);  
-	}
-	beginning();
-	function updateTime(){
-		var nowMS = now.getTime();
-		nowMS += 1000;
-		now.setTime(nowMS);
-		var c = document.getElementById('clock');
-		if(c){
-			c.innerHTML = now.toString();
-		}
-	} 
-</script>
+﻿
 
 <!DOCTYPE html>
 <html>
@@ -35,7 +20,7 @@
 
 	<body>
 		<div class="myDiv">
-			<div id="clock"></div>
+			
 		
 			<h1>What makes a car fun to drive.</h1>
 			<p>Reliable cars that are light like the mazda miata. Maybe also a high power AWD car like subaru STI.</p>
@@ -83,7 +68,7 @@
 				</tr>
 			</table>
 			<footer>
-				<p>Author: Ryan _____ Copyright 2021</p>
+				<p>Author: Kirin _____ Copyright 2022</p>
 			</footer>
 		</div>
 
